@@ -6,16 +6,6 @@
   <link rel="shortcut icon" type='image/x-icon' href="favicon.ico"/>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="css/style.css" type="text/css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/unsplash-source.min.js"></script>
-  <script src="js/averageRGB.js"></script> <!-- averageRGB for image algorithm-->
-  <script src="js/colorP.js"></script> <!-- background Post Processing-->
-  <script src="js/quoteSplit.js"></script> <!-- getlines function -->
-  <script src="js/randomBg.js"></script> <!-- generate quote with a random background -->
-  <script src="js/randomPost.js"></script> <!-- generate new random post -->
-  <script src="js/randomQuote.js"></script> <!-- generate same background with new random quote -->
-  <script src="js/watermark.js"></script> <!-- generate the Quostify watermarks -->
-  <script src="js/download.js"></script> <!-- download script with blob to URI approach -->
 
 
 </head>
@@ -104,8 +94,23 @@
     }, false);
 
 
-  </script>
 
+
+
+
+  </script>
+  
+<!-- Moved scripts to the bottom for faster loadtime (apperently)-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/unsplash-source.min.js"></script>
+<script src="js/averageRGB.js"></script> <!-- averageRGB for image algorithm-->
+<script src="js/colorP.js"></script> <!-- background Post Processing-->
+<script src="js/quoteSplit.js"></script> <!-- getlines function -->
+<script src="js/randomBg.js"></script> <!-- generate quote with a random background -->
+<script src="js/randomPost.js"></script> <!-- generate new random post -->
+<script src="js/randomQuote.js"></script> <!-- generate same background with new random quote -->
+<script src="js/watermark.js"></script> <!-- generate the Quostify watermarks -->
+<script src="js/download.js"></script> <!-- download script with blob to URI approach -->
 </body>
 
 </html>
